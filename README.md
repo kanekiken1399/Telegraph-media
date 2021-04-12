@@ -1,2 +1,3 @@
-# Telegraph-media
-Oooooooo
+# ᴛᴇʟᴇɢʀᴀᴘʜ ᴄᴏɴᴠᴇʀᴛᴇʀ ʙᴏᴛ [ᴀꜱᴜɴᴀ]
+ ᴀ ꜱɪᴍᴘʟᴇ ʙᴏᴛ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ɪᴍᴀɢᴇꜱ,ᴠɪᴅᴇᴏ ᴀɴᴅ ɢɪꜰꜱ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴘʜ ʟɪɴᴋ
+ ʙᴏᴛ ʟɪɴᴋ:[asuna](https://t.me/asunatelegraph_bot)
