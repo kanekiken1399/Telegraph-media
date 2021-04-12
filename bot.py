@@ -81,23 +81,21 @@ async def uploadvid(client, message):
 @Tgraph.on_message(filters.command(["start"]))
 async def home(client, message):
   buttons = [[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+        InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/pikachubotupdates'),
-        InlineKeyboardButton('𝑫𝑬𝑽𝑳𝑶𝑷𝑬𝑹', url='https://t.me/PYTHON_CODER_SRINIVAS')
+        InlineKeyboardButton('ᴏᴜʀ ᴄʜᴀɴɴᴇʟ', url='http://telegram.me/asunaupdates1'),
+        InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Ken_kenaki')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""<b>Hey there i am here,
-        
-im a telegraph Uploader That Can Upload Photo, Video And Gif
-        
-Simply send me photo, video or gif to upload to Telegra.ph
-        
-Made With ♥️ By @pikachubotsupport</b>""",
+        text="""<b>ʜᴇʟʟᴏ,
+
+ɪᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜᴘʟᴏᴀᴅᴇʀ ᴛʜᴀᴛ ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ᴘʜᴏᴛᴏ, ᴠɪᴅᴇᴏ ᴀɴᴅ ɢɪꜰ
+
+ꜱɪᴍᴘʟʏ ꜱᴇɴᴅ ᴍᴇ ᴘʜᴏᴛᴏ, ᴠɪᴅᴇᴏ ᴏʀ ɢɪꜰ ᴛᴏ ᴜᴘʟᴏᴀᴅ ᴛᴏ ᴛᴇʟᴇɢʀᴀ.ᴘʜ</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
@@ -106,20 +104,20 @@ Made With ♥️ By @pikachubotsupport</b>""",
 @Tgraph.on_message(filters.command(["help"]))
 async def help(client, message):
   buttons = [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='home'),
+        InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/ultramaxupdates')
+        InlineKeyboardButton('ᴏᴜʀ ᴄʜᴀɴɴᴇʟ', url='http://telegram.me/asunaupdates1')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""There Is Nothing To Know More,
-        
-Just Send Me A Video/gif/photo Upto 5 mb.
+        text="""ᴛʜᴇʀᴇ ɪꜱ ɴᴏᴛʜɪɴɢ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ,
 
-i'll upload it to telegra.ph and give you the direct link""",
+ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀ ᴠɪᴅᴇᴏ/ɢɪꜰ/ᴘʜᴏᴛᴏ ᴜᴘᴛᴏ 5 ᴍʙ.
+
+ɪ'ʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ᴛᴇʟᴇɢʀᴀ.ᴘʜ ᴀɴᴅ ɢɪᴠᴇ ʏᴏᴜ ᴛʜᴇ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
